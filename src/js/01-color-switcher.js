@@ -26,5 +26,4 @@ function onStopBtnClick() {
   console.log('click on btn stop');
   refs.startBtn.disabled = false;
   refs.stopBtn.disabled = true;
-  clearInterval(timerId);
 }
