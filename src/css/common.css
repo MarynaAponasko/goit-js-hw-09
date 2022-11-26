@@ -42,7 +42,7 @@ text-decoration: underline;
   font-size: 15px;
   font-weight: 500;
 }
- button{
+ .btnStart{
   padding: 10px 20px;
   background-color: green;
   border-radius: 50px;
