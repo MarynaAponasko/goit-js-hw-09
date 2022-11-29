@@ -21,9 +21,11 @@ function onStartBtnClick() {
   timerId = setInterval(() => {
     refs.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
+  // onStopBtnClick;
 }
 function onStopBtnClick() {
   console.log('click on btn stop');
   refs.startBtn.disabled = false;
   refs.stopBtn.disabled = true;
+  clearInterval(timerId);
 }

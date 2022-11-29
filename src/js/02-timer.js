@@ -60,7 +60,7 @@ const fp = flatpickr('input#datetime-picker', options);
 refs.startBtn.addEventListener('click', onStartBtnClick);
 
 function onStartBtnClick() {
-  //   console.log('start button click');
+  console.log('start button click');
   refs.startBtn.disabled = true;
 
   intervalId = setInterval(() => {

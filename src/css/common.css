@@ -42,12 +42,13 @@ text-decoration: underline;
   font-size: 15px;
   font-weight: 500;
 }
- .btnStart{
+.buttonStart{
   padding: 10px 20px;
   background-color: green;
   border-radius: 50px;
- }
-  input{
+}
+
+input{
     padding: 10px 20px;
     width: 225px;
     margin-right: 10px;
